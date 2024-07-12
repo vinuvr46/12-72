@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bank Rating Form</title>
+  <link rel="stylesheet" href="2.css">
+</head>
+<body>
+    <div class="vi">
+    <h1>Bank Rating Form</h1>
+  <h2 style="font-family: 'Times New Roman', Times, serif; padding: 10px;">GREAT BANK</h2>
+  </div>
+  <form id="rating-form">
+    <div class="form-group">
+      <label for="company-name">Company Name:</label>
+      <input type="text" id="company-name" name="companyName" required>
+    </div>
+    <div class="form-group">
+      <label for="financial-institution">Financial Institution Name:</label>
+      <input type="text" id="financial-institution" name="financialInstitutionName" required>
+    </div>
+    <div class="form-group">
+    </div>
+    <div class="form-group">
+      <label for="contact-person">Contact Person:</label>
+      <input type="text" id="company-institution" name="companyInstitution">
+    </div>
+    <div class="form-group">
+      <label for="contact-phone">Contact Phone Number:</label>
+      <input type="tel" id="contact-phone" name="contactPhone">
+    </div>
+    <div class="form-group">
+      <label for="account-holder">Name of Account Holder:</label>
+      <input type="text" id="account-holder" name="accountHolder" required>
+    </div>
+    <div class="form-group">
+      <label for="account-opened">Date Account Opened:</label>
+      <input type="date" id="account-opened" name="accountOpened">
+    </div>
+    <div class="form-group">
+      <label for="account-type">Account Type:</label>
+      <select id="account-type" name="accountType">
+        <option value="">Select an option</option>
+        <option value="checking">Checking</option>
+        <option value="savings">Savings</option>
+        <option value="credit">Credit Card</option>
+        <option value="loan">Loan</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="balance">Balance:</label>
+      <input type="number" id="balance" name="balance">
+    </div>
+    <div class="form-group">
+      <label for="additional-info">Additional Information:</label>
+      <input type="text" id="contact-person" name="contactPerson">
+    </div>
+    <button type="submit">Submit Rating</button>
+  </form>
+</body>
+</html>
